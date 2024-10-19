@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif; /* Set a default font for the body */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffd700; /* Yellow background */
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+}
+
+.content p {
+  font-size: 1.2em;
+}
+
+.content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content li {
+  margin: 10px 0;
+}
+
+.content a {
+  text-decoration: none;
+  color: #007bff; /* Blue links */
+  font-weight: bold;
+}
+
+.content a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1; /* Light gray background for footer */
+}

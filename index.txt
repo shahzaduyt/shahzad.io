@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brighter Bridge</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <script src="script.js" defer></script> <!-- Link to your JS file -->
+</head>
+<body>
+    <header>
+        <h1>Brighter Bridge</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Class</a>
+                    <ul class="dropdown">
+                        <li><a href="6sub.html">Class 6</a></li>
+                        <li><a href="7sub.html">Class 7</a></li>
+                        <li><a href="8sub.html">Class 8</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Entertainment Desk</a>
+                    <ul class="dropdown">
+                        <li><a href="xoxo.html">Tic Tac Toe</a></li>                        
+                        <li><a href="bb.html">Brighter Bird</a></li>
+                    </ul>
+                </li>
+                <li><a href="ontest.html">Online Test</a></li>
+                <li><a href="flow.html">Flow-Chart</a></li>
+                <li><a href="abt.html">About Us</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="1.png" alt="Image 1">
+            </div>
+            <div class="mySlides">
+                <img src="2.png" alt="Image 2">
+            </div>
+            <div class="mySlides">
+                <img src="3.png" alt="Image 3">
+            </div>
+            <div class="mySlides">
+                <img src="4.png" alt="Image 4">
+            </div>
+            <div class="mySlides">
+                <img src="5.png" alt="Image 5">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </main>
+    
+    <!-- Small image at bottom-right, just above footer -->
+    <div id="youtube-container">
+        <img src="you.png" alt="YouTube Link" id="youtube-link">
+    </div>
+
+    <footer>
+        <p>Brighter-Bridge</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

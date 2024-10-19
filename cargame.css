@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+#gameArea {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    border: 2px solid #000;
+    background-color: #a5d6a7;
+    overflow: hidden;
+}
+
+.car {
+    position: absolute;
+    width: 100px; /* Width for car images */
+    height: 50px; /* Height for car images */
+    background-size: contain; /* Ensure the image covers the element */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+}
+
+#redCar {
+    background-image: url('redcar.png');
+    left: 50px; /* Fixed position on the left */
+    bottom: 150px; /* Position red car higher */
+}
+
+#blueCar {
+    background-image: url('bluecar.png');
+    left: 50px; /* Fixed position on the left */
+    bottom: 100px; /* Position blue car higher than red car */
+}
+
+.circle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.red-circle {
+    background-color: red;
+    left: 20px;
+    bottom: 20px;
+}
+
+.blue-circle {
+    background-color: blue;
+    right: 20px;
+    bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#winnerAnnouncement {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d32f2f;
+}

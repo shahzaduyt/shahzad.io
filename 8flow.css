@@ -1,0 +1,72 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff3e0; /* Light orange background */
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #ff7043; /* Orange header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.flow-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.flow-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.flow-item {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.flow-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.flow-item h3 {
+    color: #ff7043; /* Orange */
+}
+
+.flow-item p {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #f4511e; /* Darker orange */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+

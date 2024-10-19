@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    background-color: #e63946; /* Red Background */
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #f1faee; /* Light background for the card */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    margin: 0 0 10px;
+    color: #1d3557; /* Dark Blue for card headings */
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2a9d8f; /* Green Button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #264653; /* Darker Green on hover */
+}
+
+.video-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 450px; /* Increased height for better visibility */
+    border: none;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}

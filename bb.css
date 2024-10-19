@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFEB3B; /* Yellow background */
+    text-align: center;
+}
+
+#startScreen {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #FF5722; /* Orange color for title */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 24px;
+    background-color: #FF5722; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E64A19; /* Darker shade on hover */
+}
+
+#gameOver {
+    margin-top: 50px;
+}
+
+canvas {
+    border: 2px solid #FF5722; /* Border color */
+    display: block;
+    margin: 0 auto; /* Center the canvas */
+}

@@ -1,0 +1,139 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Light green background */
+    color: #333; /* Text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+header {
+    background-color: #a10de1; /* Header color */
+    color: white; /* Header text color */
+    padding: 20px; /* Space around header text */
+    text-align: center; /* Center header text */
+}
+
+nav {
+    padding: 10px 20px; /* Add padding to nav */
+    text-align: left; /* Align nav items to the left */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    position: relative; /* Position relative for dropdown */
+    display: flex; /* Use flexbox for horizontal alignment */
+}
+
+nav ul li {
+    position: relative; /* Position relative for dropdown */
+    margin-right: 20px; /* Space between menu items */
+}
+
+nav ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold font */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Dropdown styles */
+.dropdown {
+    display: none; /* Hide dropdown by default */
+    position: absolute; /* Position dropdown absolutely */
+    background-color: #4caf50; /* Dropdown background color */
+    padding: 10px; /* Padding inside dropdown */
+    border-radius: 5px; /* Rounded corners */
+    z-index: 1; /* Ensure dropdown is above other elements */
+    left: 0; /* Align dropdown to the left */
+    top: 100%; /* Position dropdown below the menu item */
+}
+
+nav ul li:hover .dropdown {
+    display: block; /* Show dropdown on hover */
+}
+
+.dropdown li {
+    display: block; /* Vertical list for dropdown items */
+    margin: 0; /* Remove margin */
+}
+
+.dropdown li a {
+    padding: 8px 12px; /* Padding for dropdown links */
+    display: block; /* Full width links */
+}
+
+.dropdown li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Background on hover */
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 80%; /* Set max width for the slideshow */
+    margin: 20px auto; /* Center the slideshow */
+    overflow: hidden; /* Hide overflow */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.mySlides {
+    display: none; /* Hide all slides initially */
+}
+
+img {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.prev, .next {
+    cursor: pointer; /* Change cursor to pointer */
+    position: absolute; /* Position arrows absolutely */
+    top: 50%; /* Center vertically */
+    width: auto; /* Automatic width */
+    padding: 16px; /* Padding for arrows */
+    color: white; /* Arrow color */
+    font-weight: bold; /* Bold arrows */
+    font-size: 18px; /* Font size for arrows */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 3px; /* Rounded corners for arrows */
+    user-select: none; /* Prevent text selection */
+}
+
+.prev {
+    left: 10px; /* Position left arrow */
+}
+
+.next {
+    right: 10px; /* Position right arrow */
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+}
+
+#youtube-container {
+    position: fixed;
+    bottom: 20px; /* Adjust to control distance from the bottom */
+    right: 20px;  /* Adjust to control distance from the right */
+    z-index: 1000; /* Ensures it appears on top of other elements */
+}
+
+#youtube-link {
+    width: 50px; /* Small size */
+    height: auto;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #a10de1; /* Footer background color */
+    color: white; /* Footer text color */
+    text-align: center; /* Center footer text */
+    padding: 10px; /* Space around footer text */
+    position: relative; /* Position relative for layout */
+    bottom: 0; /* Stick footer to bottom */
+    width: 100%; /* Full width footer */
+}

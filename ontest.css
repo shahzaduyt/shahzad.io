@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #00796b;
+}
+
+.class-list {
+    margin: 20px auto;
+    padding: 10px;
+    width: 40%;
+}
+
+.class-item {
+    margin: 15px 0;
+    font-size: 1.3em;
+}
+
+.class-item a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #00796b;
+    padding: 12px 25px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.class-item a:hover {
+    background-color: #004d40;
+}

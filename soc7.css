@@ -1,0 +1,60 @@
+/* soc7.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom right, #ff7e00, #ffeb3b, #4caf50, #2196f3, #7b1fa2); /* Rainbow gradient */
+    color: #333; /* Dark text for contrast */
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white for header */
+    color: #333;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+main {
+    flex: 1; /* Allows the main content to grow and fill the available space */
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white; /* White background for sections */
+    border: 2px solid #ff5722; /* Orange border */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+h2, h3 {
+    color: #ff5722; /* Orange color for headings */
+    text-align: center; /* Center the headings */
+}
+
+#video {
+    display: flex;
+    justify-content: center; /* Centers the video horizontally */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white for footer */
+    color: #333;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+strong {
+    color: #ff5722; /* Orange color for emphasized text */
+}
+
+/* Adding hover effects for sections */
+section:hover {
+    border-color: #2196f3; /* Change border color on hover */
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly change background color */
+}
